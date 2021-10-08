@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css" >
+
+    <title> AlphaWebSites </title>
+
+  </head>
+  <body>
+    
+    <header class="container-fluid topo">
+     <div class="row">
+      <div class="col-lg-3 col-md-3 col-3 pt-3 pl-5">
+       <img class="imagem-logo" src="https://t4.ftcdn.net/jpg/02/55/58/21/240_F_255582122_DU6vXGjvaZD59FVojFQsgsMYJfGc2G36.jpg" />
+       <a class="logo"> Alpha </a>
+      </div>
+      <div class="col-lg-6 col-md-6 col-4 mt-5">
+       <div class="menu-monitor">
+        <a class="mr-3 link-menu" href="app.html"> Caracteristicas </a>
+        <a class="mr-3 link-menu" href="app.html"> Empresa </a>
+        <a class="mr-3 link-menu" href="app.html"> Dirigentes </a>
+        <a class="mr-3 link-menu" href="app.html"> Negócio </a>
+        <a class="btn-white dropdown-toggle mr-3 link-menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Fontes de Receitas
+        </a>
+        <div class="dropdown-menu mt-5" aria-labelledby="dropdownMenuLink">
+         <a class="dropdown-item" href="#">Alguma ação</a>
+         <a class="dropdown-item" href="#">Outra ação</a>
+         <a class="dropdown-item" href="#"> Contato </a>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-4">
+       <button type="button" class="btn btn-outline-primary pt-2 pb-2 pl-5 pr-5 botao-menu"> Saiba mais </button> 
+       <div class="col-md-6 menu-mobile" id="menu-mobile">
+        <div>
+         <button type="button" class="btn btn-light botao-mobile" id="botao-menu-bobile"> Menu <i class="fas fa-bars pl-1"></i></button>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div class="row row-mobile link-menu-mobile" id="link-menu-mobile">
+      <div class="col-md-12">
+       <div class="pt-5 pl-5">
+        <a class="mr-3 link-menu" href="app.html"> Caracteristicas </a><br>
+        <a class="mr-3 link-menu" href="app.html"> Empresa </a><br>
+        <a class="mr-3 link-menu" href="app.html"> Empresa </a><br>
+        <a class="mr-3 link-menu" href="app.html"> Dirigentes </a><br>
+        <a class="mr-3 link-menu" href="app.html"> Negócio </a><br>
+        <a class="btn-white dropdown-toggle mr-3 link-menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Fontes de Receitas
+        </a><br>
+        <div class="dropdown-menu mt-5" aria-labelledby="dropdownMenuLink">
+         <a class="dropdown-item" href="#">Alguma ação</a>
+         <a class="dropdown-item" href="#">Outra ação</a>
+         <a class="dropdown-item" href="#"> Contato </a>
+        </div>
+        <button type="button" class="btn btn-outline-primary pt-2 pb-2 pl-5 pr-5 mt-2"> Saiba mais </button> 
+       </div>
+      </div>
+     </div>
+    </header>
+
+    <section class="container-fluid text-center pb-5 pt-5 background-image8">
+     <div class="row pt-5 pb-5">
+      <div class="col-lg-6 offset-3">
+       <input type="text" class="form-control mt-3 height-3" id="nome" placeholder="Nome completo" />
+       <small class="text-danger d-none" id="erro2"> Esse campo é obrigatório </small>
+       <input type="email" class="form-control mt-3 height-3" id="email" placeholder="Seu email" />
+       <small class="text-danger d-none" id="erro"> Esse campo deve ser um e-mail válido </small>
+       <input type="text" class="form-control mt-3 height-3" id="telefone" placeholder="Numero de telefone" />
+       <textarea class="height-8 form-control mt-3" id="mensagem" placeholder="Mensagem"></textarea>
+       <small class="text-success d-none" id="sucesso"> Email enviado com sucesso </small>
+       <button class="btn btn-lg btn-block botao" id="enviar"><b>  Enviar </b></button>
+       <div class="spinner-border text-danger mt-4 d-none" id="carregando"></div>
+      </div>
+     </div>
+    </section>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="app.js"> </script>
+
+  </body>
+</html>

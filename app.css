@@ -1,0 +1,1858 @@
+body {
+    margin: 0;
+}
+
+.topo {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    height: 115px;
+}
+
+.link-menu {
+    text-decoration: none !important;
+    cursor: pointer;
+    color: black !important;
+}
+
+.link-menu:hover {
+    color: #425cbb !important;
+}
+
+.botao-menu {
+    margin-top: 12%;
+}
+
+.logo {
+    color: #425cbb !important;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: -6%;
+}
+
+.botao-mobile {
+    width: 6em;
+    margin-top: 2em;
+    background-color: white;
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-monitor {
+    display: block;
+}
+
+.link-menu-mobile {
+    display: none;
+}
+
+.imagem-logo {
+    height: 90px;
+    width: 100px;
+}
+
+.background-image {
+    background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg01.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 32.5em;
+}
+
+.background-image2 {
+    background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.background-image3 {
+    background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img02-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.background-image4 {
+    background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img03-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.background-image5 {
+    background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-span {
+    font-family: 'Poppins', sans-serif;
+    color: #9b9ea3;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: 4.4em;
+    font-weight: 600;
+}
+
+.text-h1 {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    color: white;
+    margin-left: 1.27em;
+    width: 13em;
+}
+
+.titulo-s-sessao {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #242527;
+    font-size: 35px;
+    width: 19em;
+    margin-left: 9em;
+    padding-top: 3em;
+}
+
+.height-18 {
+    height: 18em;
+}
+
+.height-20 {
+    height: 20em;
+}
+
+.height-62 {
+    height: 62em;
+}
+
+.titulo-t-sessao {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    color: #3e3f9b;
+    font-size: 50px;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 1.3em;
+}
+
+.descricao-t-sessao {
+    font-size: 20px;
+    padding-left: 10%;
+    line-height: 35px;
+    color: #000000 !important;
+    width: 51em;
+}
+
+.height-25 {
+    height: 25em;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container- {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 72%;
+}
+
+.container-::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.timeline::after {
+  left: 31px;
+}
+
+.container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+}
+
+.container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.left::after, .right::after {
+  left: 15px;
+}
+
+.right {
+  left: 0%;
+}
+
+.espacamento {
+    padding-left: 3rem!important;
+    margin-left: 3rem!important;
+}
+
+.margin-left-10 {
+    margin-left: 10em;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    text-align: center;
+    color: #36388d;
+}
+
+.color {
+    color: #3849b4;
+}
+
+.height-50 {
+    height: 50em;
+}
+
+.dados-empresa-h2 {
+    font-size: 2em;
+}
+
+.dados-empresa-p {
+    font-size: 1em;
+}
+
+.titulo-q-sessao {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    color: #3e3f9b;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 10em;
+    padding-left: 0em;
+}
+
+.height-45 {
+    height: 45em;
+    background-color: #453c9e;
+}
+
+.titulo-s-sessao {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 10em;
+    padding-left: 0em;
+}
+
+.texto-6-sessao {
+    font-size: 20px;
+    padding-left: 17%;
+    line-height: 35px;
+    color: gray !important;
+    width: 57em;
+}
+
+.titulo-7-sessao {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    color: #3e3f9b;
+    font-size: 50px;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.texto-7-sessao {
+    font-size: 20px;
+    padding-left: 13%;
+    line-height: 35px;
+    color: gray !important;
+    width: 62em;
+    padding-top: 1em;
+}
+
+.height-40 {
+    height: 23em;
+}
+
+.height-15 {
+    height: 7em;
+    background-color: #1e1e1e;
+}
+
+.rodape {
+    color: white;
+    font-size: 1.2em;
+    padding-top: 2.5em;
+}
+
+.height-3 {
+    height: 3em;
+}
+
+.height-8 {
+    height: 8em !important;
+}
+
+.botao {
+    background-color: #3333ff !important;
+    color: white;
+    border-radius: 40px;
+    margin-top: 2em;
+    height: 2.3em;
+}
+
+.botao:hover {
+    color: white !important;
+}
+
+.background-image8 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Regna/assets/img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40.5em;
+}
+
+@media (min-width: 320px) {
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-monitor {
+        display: none;
+    }
+
+    .botao-mobile {
+        width: 6em;
+        margin-top: 2.5em;
+        background-color: white;
+        display: block;
+    }
+
+    .botao-menu {
+        margin-top: 12%;
+        display: none;
+    }
+
+    .logo {
+        color: #425cbb !important;
+        cursor: pointer;
+        font-size: 17px;
+        position: absolute;
+        margin-top: -61%;
+        margin-left: 50%;
+    }
+
+    .row-mobile {
+        height: 21em;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        opacity: 1;
+    }
+
+    .link-menu-mobile {
+        display: none;
+        line-height: 2em;
+    }
+
+    .imagem-logo {
+        height: 70px;
+        width: 80px;
+        margin-left: -2em;
+        margin-top: 0.5em;
+    }
+
+    .text-h1 {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        color: white;
+        margin-left: 1.27em;
+        width: 13em;
+    }
+
+    .text-span {
+        font-family: 'Poppins', sans-serif;
+        color: #9b9ea3;
+        font-size: 9px;
+        line-height: 1.4;
+        margin-left: 2.7em;
+        font-weight: 600;
+    }
+
+    .background-image {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 23.5em;
+    }
+
+    .titulo-s-sessao {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #242527;
+        font-size: 14px;
+        width: 19em;
+        margin-left: 1em;
+        padding-top: 3em;
+    }
+
+    .background-image2 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 12em;
+    }
+    
+    .background-image3 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img02-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 12em;
+    }
+    
+    .background-image4 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img03-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 12em;
+    }
+
+    .titulo-t-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 15em;
+        padding-left: 0em;
+    }
+
+    .descricao-t-sessao {
+        font-size: 12px;
+        padding-left: 0%;
+        line-height: 27px;
+        color: #000000 !important;
+        width: 19em;
+    }
+
+    .height-62 {
+        height: 93em;
+    }
+
+    .height-25 {
+        height: 44em;
+    }
+
+    .espacamento {
+        padding-left: 0rem!important;
+        margin-left: -2rem!important;
+    }
+
+    .container- {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 106%;
+    }
+
+    .margin-left-10 {
+        margin-left: 0em;
+        margin-top: -4em;
+        margin-bottom: 6em;
+    }
+
+    .titulo-q-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 23px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 2em;
+        padding-left: 0em;
+    }
+
+    .texto-6-sessao {
+        font-size: 12px;
+        padding-left: 14%;
+        line-height: 28px;
+        color: gray !important;
+        width: 21em;
+        margin-top: 2em;
+    }
+
+    .titulo-2-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: white !important;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .height-45 {
+        height: 75em;
+        background-color: #453c9e;
+        margin-top: 26em;
+    }
+
+    .dados-empresa-h2 {
+        font-size: 1.3em;
+    }
+
+    .titulo-7-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;    
+    }
+    
+    .texto-7-sessao {
+        font-size: 12px;
+        padding-left: 13%;
+        line-height: 26px;
+        color: gray !important;
+        width: 22em;
+        padding-top: 1em;
+    }   
+    
+    .height-40 {
+        height: 25em;
+    }
+
+    .height-15 {
+        height: 9em;
+        background-color: #1e1e1e;
+    }
+    
+    .rodape {
+        color: white;
+        font-size: 0.7em;
+        padding-top: 2.5em;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-monitor {
+        display: none;
+    }
+
+    .botao-mobile {
+        width: 6em;
+        margin-top: 2.5em;
+        background-color: white;
+        display: block;
+    }
+
+    .botao-menu {
+        margin-top: 12%;
+        display: none;
+    }
+
+    .logo {
+        color: #425cbb !important;
+        cursor: pointer;
+        font-size: 17px;
+        position: absolute;
+        margin-top: -52%;
+        margin-left: 35%;
+    }
+
+    .row-mobile {
+        height: 21em;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        opacity: 1;
+    }
+
+    .link-menu-mobile {
+        display: none;
+        line-height: 2em;
+    }
+
+    .imagem-logo {
+        height: 70px;
+        width: 80px;
+        margin-left: -2em;
+        margin-top: 0.5em;
+    }
+
+    .text-h1 {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        font-size: 23px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        color: white;
+        margin-left: 1.27em;
+        width: 13em;
+    }
+
+    .text-span {
+        font-family: 'Poppins', sans-serif;
+        color: #9b9ea3;
+        font-size: 10px;
+        line-height: 1.4;
+        margin-left: 2.7em;
+        font-weight: 600;
+    }
+
+    .background-image {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 25.5em;
+    }
+
+    .titulo-s-sessao {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #242527;
+        font-size: 15px;
+        width: 19em;
+        margin-left: 2em;
+        padding-top: 3em;
+    }
+
+    .background-image2 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 12em;
+    }
+    
+    .background-image3 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img02-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 12em;
+    }
+    
+    .background-image4 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img03-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 12em;
+    }
+
+    .titulo-t-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 17px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 13em;
+        padding-left: 0em;
+    }
+
+    .descricao-t-sessao {
+        font-size: 15px;
+        padding-left: 0%;
+        line-height: 35px;
+        color: #000000 !important;
+        width: 19em;
+    }
+
+    .height-62 {
+        height: 110em;
+    }
+
+    .height-25 {
+        height: 45em;
+    }
+
+    .espacamento {
+        padding-left: 0rem!important;
+        margin-left: -2rem!important;
+    }
+
+    .container- {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 104%;
+    }
+
+    .margin-left-10 {
+        margin-left: 2em;
+        margin-bottom: 5em;
+        margin-top: -3em;
+    }
+
+    .titulo-q-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 23px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 3em;
+        padding-left: 0em;
+    }
+
+    .texto-6-sessao {
+        font-size: 15px;
+        padding-left: 14%;
+        line-height: 28px;
+        color: gray !important;
+        width: 21em;
+        margin-top: 2em;
+    }
+
+    .titulo-2-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: white !important;
+        font-size: 17px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .height-45 {
+        height: 77em;
+        background-color: #453c9e;
+        margin-top: 26em;
+    }
+
+    .titulo-7-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 17px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .texto-7-sessao {
+        font-size: 15px;
+        padding-left: 13%;
+        line-height: 31px;
+        color: gray !important;
+        width: 21em;
+        padding-top: 1em;
+    }    
+    
+    .height-40 {
+        height: 27em;
+    }
+
+    .height-15 {
+        height: 12em;
+        background-color: #1e1e1e;
+        margin-top: 4em;
+    }
+    
+    .rodape {
+        color: white;
+        font-size: 1em;
+        padding-top: 2.5em;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-monitor {
+        display: none;
+    }
+
+    .botao-mobile {
+        width: 6em;
+        margin-top: 2.5em;
+        background-color: white;
+        display: block;
+    }
+
+    .botao-menu {
+        margin-top: 12%;
+        display: none;
+    }
+
+    .logo {
+        color: #425cbb !important;
+        cursor: pointer;
+        font-size: 17px;
+        position: absolute;
+        margin-top: -45%;
+        margin-left: 35%;
+    }
+
+    .row-mobile {
+        height: 21em;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        opacity: 1;
+    }
+
+    .link-menu-mobile {
+        display: none;
+        line-height: 2em;
+    }
+
+    .imagem-logo {
+        height: 70px;
+        width: 80px;
+        margin-left: -2em;
+        margin-top: 0.5em;
+    }
+
+    .text-h1 {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        color: white;
+        margin-left: 1.27em;
+        width: 13em;
+    }
+
+    .text-span {
+        font-family: 'Poppins', sans-serif;
+        color: #9b9ea3;
+        font-size: 12px;
+        line-height: 1.4;
+        margin-left: 2.7em;
+        font-weight: 600;
+    }
+
+    .background-image {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 25.5em;
+    }
+
+    .titulo-s-sessao {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #242527;
+        font-size: 18px;
+        width: 19em;
+        margin-left: 1em;
+        padding-top: 3em;
+    }
+
+    .background-image2 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 13em;
+    }
+    
+    .background-image3 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img02-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 13em;
+    }
+    
+    .background-image4 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img03-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 13em;
+    }
+
+    .height-18 {
+        height: 23em;
+    }
+
+    .titulo-t-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 10em;
+        padding-left: 0em;
+    }
+
+    .descricao-t-sessao {
+        font-size: 15px;
+        padding-left: 2%;
+        line-height: 35px;
+        color: #000000 !important;
+        width: 22em;
+    }
+
+    .height-62 {
+        height: 100em;
+    }
+
+    .height-25 {
+        height: 45em;
+    }
+
+    .espacamento {
+        padding-left: 0rem!important;
+        margin-left: -2rem!important;
+    }
+
+    .container- {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 100%;
+    }
+
+    .margin-left-10 {
+        margin-left: 3em;
+        margin-bottom: 5em;
+        margin-top: -3em;
+    }
+
+    .dados-empresa-h2 {
+        font-size: 1.5em;
+    }
+
+    .titulo-q-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 3em;
+        padding-left: 0em;
+    }
+
+    .texto-6-sessao {
+        font-size: 15px;
+        padding-left: 14%;
+        line-height: 28px;
+        color: gray !important;
+        width: 25em;
+        margin-top: 2em;
+    }
+
+    .titulo-2-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: white !important;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .height-45 {
+        height: 62em;
+        background-color: #453c9e;
+        margin-top: 26em;
+    }
+
+    .titulo-7-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .texto-7-sessao {
+        font-size: 15px;
+        padding-left: 13%;
+        line-height: 31px;
+        color: gray !important;
+        width: 24em;
+        padding-top: 1em;
+    }    
+    
+    .height-40 {
+        height: 27em;
+    }
+
+    .height-15 {
+        height: 13em;
+        background-color: #1e1e1e;
+    }
+    
+    .rodape {
+        color: white;
+        font-size: 1.1em;
+        padding-top: 2.5em;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-monitor {
+        display: none;
+    }
+
+    .botao-mobile {
+        width: 6em;
+        margin-top: 2.5em;
+        background-color: white;
+        display: block;
+    }
+
+    .botao-menu {
+        margin-top: 12%;
+        display: none;
+    }
+
+    .logo {
+        color: #425cbb !important;
+        cursor: pointer;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 16%;
+        margin-left: -6%;
+    }
+
+    .row-mobile {
+        height: 21em;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        opacity: 1;
+    }
+
+    .link-menu-mobile {
+        display: none;
+        line-height: 2.3em;
+    }
+
+    .text-h1 {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        color: white;
+        margin-left: 1.27em;
+        width: 13em;
+    }
+
+    .text-span {
+        font-family: 'Poppins', sans-serif;
+        color: #9b9ea3;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-left: 3.4em;
+        font-weight: 600;
+    }
+
+    .background-image {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 29.5em;
+    }
+
+    .titulo-s-sessao {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #242527;
+        font-size: 30px;
+        width: 19em;
+        margin-left: 3em;
+        padding-top: 3em;
+    }
+
+    .height-20 {
+        height: 13em;
+    }
+
+    .titulo-t-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 34px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .descricao-t-sessao {
+        font-size: 20px;
+        padding-left: 2%;
+        line-height: 35px;
+        color: #000000 !important;
+        width: 33em;
+    }
+
+    .height-62 {
+        height: 68em;
+    }
+
+    .height-25 {
+        height: 47em;
+    }
+
+    .espacamento {
+        padding-left: 6rem!important;
+        margin-left: -2rem!important;
+    }
+
+    .container- {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 85%;
+    }
+
+    .margin-left-10 {
+        margin-left: 15em;
+        margin-bottom: 6em;
+    }
+
+    .dados-empresa-h2 {
+        font-size: 1.5em;
+    }
+
+    .titulo-q-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 30px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 3em;
+        padding-left: 0em;
+    }
+
+    .texto-6-sessao {
+        font-size: 20px;
+        padding-left: 14%;
+        line-height: 35px;
+        color: gray !important;
+        width: 34em;
+        margin-top: 2em;
+    }
+
+    .titulo-2-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: white !important;
+        font-size: 30px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .height-45 {
+        height: 63em;
+        background-color: #453c9e;
+        margin-top: 26em;
+    }
+
+    .titulo-7-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 30px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .texto-7-sessao {
+        font-size: 20px;
+        padding-left: 13%;
+        line-height: 35px;
+        color: gray !important;
+        width: 34em;
+        padding-top: 1em;
+    }    
+    
+    .height-40 {
+        height: 27em;
+    }
+
+    .height-15 {
+        height: 13em;
+        background-color: #1e1e1e;
+    }
+    
+    .rodape {
+        color: white;
+        font-size: 1.1em;
+        padding-top: 2.5em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-monitor {
+        display: block;
+    }
+
+    .logo {
+        color: #425cbb !important;
+        cursor: pointer;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 12%;
+        margin-left: -6%;
+    }
+
+    .link-menu {
+        text-decoration: none !important;
+        cursor: pointer;
+        color: black !important;
+        font-size: 13.5px;
+    }
+
+    .botao-menu {
+        margin-top: 17%;
+    }
+
+    .imagem-logo {
+        height: 90px;
+        width: 100px;
+        margin-top: 0em;
+    }
+
+    .botao-menu {
+        margin-top: 16%;
+        display: block;
+    }
+
+    .text-h1 {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        font-size: 48px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        color: white;
+        margin-left: 1.27em;
+        width: 13em;
+    }
+
+    .text-span {
+        font-family: 'Poppins', sans-serif;
+        color: #9b9ea3;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-left: 4em;
+        font-weight: 600;
+    }
+
+    .background-image {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 30.5em;
+    }
+
+    .titulo-s-sessao {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #242527;
+        font-size: 35px;
+        width: 19em;
+        margin-left: 4em;
+        padding-top: 3em;
+    }
+
+    .titulo-t-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 0.3em;
+    }
+
+    .descricao-t-sessao {
+        font-size: 20px;
+        padding-left: 2%;
+        line-height: 35px;
+        color: #000000 !important;
+        width: 45em;
+    }
+
+    .height-62 {
+        height: 60em;
+    }
+
+    .container- {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 100%;
+    }
+    
+    .espacamento {
+        padding-left: 0rem!important;
+        margin-left: 0rem!important;
+    }
+
+    .height-25 {
+        height: 25em;
+    }
+
+    .margin-left-10 {
+        margin-left: 6em;
+    }
+
+    .height-50 {
+        height: 25em;
+    }
+
+    .dados-empresa-h2 {
+        font-size: 1.5em;
+    }
+
+    .titulo-q-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 3em;
+        padding-left: 0em;
+    }
+
+    .titulo-2-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: white !important;
+        font-size: 40px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .texto-6-sessao {
+        font-size: 20px;
+        padding-left: 14%;
+        line-height: 35px;
+        color: gray !important;
+        width: 46em;
+        margin-top: 2em;
+    }
+
+    .height-45 {
+        height: 50em;
+        background-color: #453c9e;
+    }
+
+    .titulo-7-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .texto-7-sessao {
+        font-size: 20px;
+        padding-left: 13%;
+        line-height: 35px;
+        color: gray !important;
+        width: 46em;
+        padding-top: 1em;
+    }    
+    
+    .height-40 {
+        height: 25em;
+    }
+
+    .height-15 {
+        height: 7em;
+        background-color: #1e1e1e;
+    }
+    
+    .rodape {
+        color: white;
+        font-size: 1.2em;
+        padding-top: 2.5em;
+    }    
+}
+
+@media (min-width: 1201px)  {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-monitor {
+        display: block;
+    }
+
+    .logo {
+        color: #425cbb !important;
+        cursor: pointer;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 9%;
+        margin-left: -6%;
+    }
+
+    .link-menu {
+        text-decoration: none !important;
+        cursor: pointer;
+        color: black !important;
+        font-size: 17px;
+    }
+
+    .imagem-logo {
+        height: 90px;
+        width: 100px;
+        margin-top: 0em;
+        margin-left: 0em;
+    }    
+
+    .botao-menu {
+        margin-top: 12%;
+        display: block;
+    }
+
+    .text-h1 {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        font-size: 55px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        color: white;
+        margin-left: 1.27em;
+        width: 13em;
+    }
+
+    .text-span {
+        font-family: 'Poppins', sans-serif;
+        color: #9b9ea3;
+        font-size: 17px;
+        line-height: 1.4;
+        margin-left: 4em;
+        font-weight: 600;
+    }
+
+    .background-image {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-content-bg01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 33.5em;
+    }
+
+    .titulo-s-sessao {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #242527;
+        font-size: 35px;
+        width: 19em;
+        margin-left: 9em;
+        padding-top: 3em;
+    }
+
+    .background-image2 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img01.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 18em;
+    }
+    
+    .background-image3 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img02-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 18em;
+    }
+    
+    .background-image4 {
+        background-image: url(https://template65307.motopreview.com/mt-demo/65300/65307/mt-content/uploads/2018/01/mt-1312-gallery01-img03-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 18em;
+    }
+
+    .height-62 {
+        height: 62em;
+    }
+
+    .titulo-t-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1.3em;
+    }
+    
+    .descricao-t-sessao {
+        font-size: 20px;
+        padding-left: 10%;
+        line-height: 35px;
+        color: #000000 !important;
+        width: 51em;
+    }
+
+    .height-25 {
+        height: 25em;
+    }
+
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+    }
+
+    .container- {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 72%;
+    }
+
+    .container-::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 4px solid #FF9F55;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .right {
+        left: 50%;
+    }
+
+    .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid white;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent white;
+    }
+
+    .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .right::after {
+        left: -16px;
+    }
+
+    .content {
+        padding: 20px 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 6px;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after, .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    .espacamento {
+        padding-left: 3rem!important;
+        margin-left: 3rem!important;
+    }
+
+    .margin-left-10 {
+        margin-left: 10em;
+    }
+    
+    .card-title {
+        margin-bottom: .75rem;
+        text-align: center;
+        color: #36388d;
+    }
+    
+    .color {
+        color: #3849b4;
+    }
+    
+    .height-50 {
+        height: 25em;
+    }
+
+    .height-25 {
+        height: 25em;
+    }
+
+    .dados-empresa-h2 {
+        font-size: 2em;
+    }
+    
+    .dados-empresa-p {
+        font-size: 1em;
+    }
+
+    .titulo-t-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 2.3em;
+    }
+
+    .titulo-q-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 2em;
+        padding-left: 0em;
+    }
+
+    .titulo-2-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: white !important;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .height-45 {
+        height: 45em;
+        background-color: #453c9e;
+    }
+    
+    .titulo-s-sessao {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #242527;
+        font-size: 35px;
+        width: 19em;
+        margin-left: 10em;
+        padding-top: 3em;
+    }    
+    
+    .texto-6-sessao {
+        font-size: 20px;
+        padding-left: 17%;
+        line-height: 35px;
+        color: gray !important;
+        width: 57em;
+    }
+
+    .titulo-7-sessao {
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        color: #3e3f9b;
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .texto-7-sessao {
+        font-size: 20px;
+        padding-left: 13%;
+        line-height: 35px;
+        color: gray !important;
+        width: 62em;
+        padding-top: 1em;
+    }
+    
+    .height-40 {
+        height: 23em;
+    }
+
+    .height-15 {
+        height: 7em;
+        background-color: #1e1e1e;
+    }
+    
+    .rodape {
+        color: white;
+        font-size: 1.2em;
+        padding-top: 2.5em;
+    }    
+
+    .height-3 {
+        height: 3em;
+    }
+    
+    .height-8 {
+        height: 8em !important;
+    }
+    
+    .botao {
+        background-color: #3333ff !important;
+        color: white;
+        border-radius: 40px;
+        margin-top: 2em;
+        height: 2.3em;
+    }
+    
+    .botao:hover {
+        color: white !important;
+    }
+    
+    .background-image9 {
+        background-image: url(https://bootstrapmade.com/demo/templates/Regna/assets/img/hero-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 40.5em;
+    }
+}
