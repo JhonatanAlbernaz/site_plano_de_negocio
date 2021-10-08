@@ -318,7 +318,7 @@ body {
     font-size: 20px;
     padding-left: 17%;
     line-height: 35px;
-    color: gray !important;
+    color: white !important;
     width: 57em;
 }
 
@@ -381,6 +381,62 @@ body {
     background-position: center;
     background-size: cover;
     height: 40.5em;
+}
+
+.container-padding-left {
+    padding-left: 25px !important;
+}
+
+.height-42 {
+    height: 42em;
+}
+
+.height-480 {
+    height: 480px;
+}
+
+.height-401 {
+    height: 400px;
+}
+
+.height-400 {
+    height: 400px;
+    background-color: #453c9e;
+}
+
+.titulo-Adm-2-section {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    color: white !important;
+    font-size: 50px;
+    line-height: 1.6;
+    padding-top: 1em;
+    margin-left: 146px;
+}
+
+.subtitulo-Adm-2-section {
+    font-size: 20px;
+    line-height: 35px;
+    color: white !important;
+    width: 850px;
+}
+
+.background-color {
+    background-color: #F7F9FE !important;
+}
+
+.lista-ul {
+    font-size: 20px;
+    padding-left: 20%;
+    line-height: 35px;
+    color: white !important;
+    width: 57em;
+    margin-top: 30px;
+}
+
+.height-490 {
+    height: 490px;
+    background-color: #453c9e;
 }
 
 @media (min-width: 320px) {
@@ -551,7 +607,7 @@ body {
         font-size: 12px;
         padding-left: 14%;
         line-height: 28px;
-        color: gray !important;
+        color: white !important;
         width: 21em;
         margin-top: 2em;
     }
@@ -780,7 +836,7 @@ body {
         font-size: 15px;
         padding-left: 14%;
         line-height: 28px;
-        color: gray !important;
+        color: white !important;
         width: 21em;
         margin-top: 2em;
     }
@@ -1014,7 +1070,7 @@ body {
         font-size: 15px;
         padding-left: 14%;
         line-height: 28px;
-        color: gray !important;
+        color: white !important;
         width: 25em;
         margin-top: 2em;
     }
@@ -1218,7 +1274,7 @@ body {
         font-size: 20px;
         padding-left: 14%;
         line-height: 35px;
-        color: gray !important;
+        color: white !important;
         width: 34em;
         margin-top: 2em;
     }
@@ -1432,7 +1488,7 @@ body {
         font-size: 20px;
         padding-left: 14%;
         line-height: 35px;
-        color: gray !important;
+        color: white !important;
         width: 46em;
         margin-top: 2em;
     }
@@ -1791,7 +1847,7 @@ body {
         font-size: 20px;
         padding-left: 17%;
         line-height: 35px;
-        color: gray !important;
+        color: white !important;
         width: 57em;
     }
 
